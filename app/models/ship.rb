@@ -10,11 +10,11 @@ class Ship < ActiveRecord::Base
     @@ships << self
   end
 
-  def self.all 
+  def self.all
     @@ships
   end
 
   def self.clear
-    @@ships = []  
+    @@ships = []
   end
 end
